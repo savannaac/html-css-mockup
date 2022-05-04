@@ -1,0 +1,68 @@
+body {
+    /* background-color: #fff; */
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; 
+}
+
+h3.contact-info {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+}
+
+p {
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
+/* font colors */
+.white { color:#fff; }
+
+.black { color:#000; }
+
+/* images */
+/* .thunder-container {
+    text-align: left;
+} */
+
+.thunder-logo {
+    width: 7rem;
+}
+
+.bluedress-container {
+    border: 1px solid #76A3D6;
+    height: 1.6rem;
+    margin-top: 1.5rem;
+    padding: .1rem;
+    text-align: center;
+    width: 6.5rem;
+}
+
+.bluedress-logo {
+    height: 1.5rem;
+    width: 4rem;
+}
+
+/* header */
+.header {
+    border: 1px dotted #fff;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-between;
+    margin: auto;
+    width: 50rem;
+}
+
