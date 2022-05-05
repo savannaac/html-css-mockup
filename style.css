@@ -27,12 +27,18 @@ p {
     font-size: .8rem;
 }
 
+button {
+    background-color: #5131A5;
+    color: #fff;
+    padding: .3rem;
+    /* text-align: center; */
+    width: 25%
+}
+
 /* font colors */
 .white { color:#fff; }
 
-.black { color:#000; }
-
-/* images */
+/* images and their containers */
 /* .thunder-container {
     text-align: left;
 } */
@@ -55,6 +61,24 @@ p {
     width: 4rem;
 }
 
+.macbook {
+    margin-top: 1.5rem; 
+    position: absolute;
+    width: 9rem;
+}
+
+.image-container-1 {
+    border: 1px solid blue;
+}
+
+/* content container, holding everything */
+.content-container {
+    border: 1px solid red; 
+    height: 100%;
+    margin: auto;
+    width: 45rem;
+}
+
 /* header */
 .header {
     border: 1px dotted #fff;
@@ -62,7 +86,68 @@ p {
     flex-direction: row;
     height: 5rem;
     justify-content: space-between;
-    margin: auto;
-    width: 50rem;
 }
 
+.button-1 {
+    background-color: #fff;
+    border: 1px solid pink;
+    height: 3rem;
+    text-align: center;
+    width: 45rem;
+}
+
+.button-2 {
+    background-color: #fff;
+    border: 1px solid pink;
+    text-align: left;
+    width: 45rem;
+}
+
+/* first portion */
+.top-container {
+    border: 1px dotted #fff;
+    display: flex;
+    flex-direction: row;
+    height: 22rem;
+    /* justify-content: space-between; */
+}
+
+.words-container {
+    border: 1px solid green;
+}
+
+.all-websites-container {
+    border: 3px solid #76A3D6;
+    /* margin: auto; */
+    margin-left: 8.5rem;
+    width: 25rem;
+}
+
+.all-websites-words {
+    /* height: 5rem; */
+    padding: .2rem;
+    width: 24.5rem;
+}
+
+.statistics-words {
+    margin-bottom: 2rem;
+    margin-left: 14rem;
+    width: 20rem;
+}
+
+.why-take-words {
+    width: 33rem;
+}
+
+/* middle portions */
+.middle-container-1 {
+    background-color: #fff;
+    border: 1px dotted #fff;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+}
+
+.avoid-words {
+    width: 25rem;
+}
