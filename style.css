@@ -15,15 +15,15 @@ h2 {
     font-size: 1rem; 
 }
 
-h3.contact-info {
+h3.footer-text {
     color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: .6rem;
 }
 
 p {
     color: #000;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: .8rem;
 }
 
@@ -32,6 +32,39 @@ button {
     color: #fff;
     padding: .4rem;
 }
+
+header {
+    border: 1px dotted #fff;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+footer {
+    height: 7rem;
+}
+
+/* label {
+    color: #fff;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+} */
+
+input {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+    margin-right: .5rem;
+    width: 20%;
+}
+
+/* input [type=submit] {
+    background-color: #5131A5;
+    color: #fff;
+    padding: .4rem;
+} */
 
 /* font colors */
 .white { color:#fff; }
@@ -65,52 +98,38 @@ button {
     width: 9rem;
 }
 
-/* .image-container-1 {
-    border: 1px solid blue;
-} */
-
 .ada-comp {
     height: 12rem;
     margin-top: 1rem;
     width: 11rem;
 }
 
-.image-container-2 {
-
+.man-ada {
+    border-radius: .2rem;
+    height: 14rem;
+    margin-right: .7rem;
 }
 
 /* content container, holding everything */
 .content-container {
-    border: 1px solid red; 
     height: 100%;
     margin: auto;
     width: 33rem;
 }
 
-/* header */
-.header {
-    border: 1px dotted #fff;
-    display: flex;
-    flex-direction: row;
-    height: 5rem;
-    justify-content: space-between;
-}
-
+/* buttons */
 .button-1 {
     background-color: #fff;
-    border: 1px solid pink;
     height: 3rem;
     text-align: center;
 }
 
 .button-2 {
-    border: 1px solid pink;
     text-align: left;
 }
 
 /* first portion */
 .top-container {
-    border: 1px dotted #fff;
     display: flex;
     flex-direction: row;
     height: 22rem;
@@ -118,7 +137,6 @@ button {
 }
 
 .words-container {
-    border: 1px solid green;
     margin-left: auto; 
     margin-right: 0;
 }
@@ -149,7 +167,6 @@ button {
 /* middle portions */
 .middle-container-1 {
     background-color: #fff;
-    border: 1px dotted #fff;
     display: flex;
     flex-direction: row;
     height: 20rem;
@@ -161,8 +178,43 @@ button {
 
 .middle-container-2 {
     background-color: #fff;
-    border: 1px dotted #fff;
     display: flex;
     flex-direction: row;
     height: 20rem;
+}
+
+.we-can-words {
+    margin-top: -1rem;
+}
+
+/* footer  */
+.contact-info-logo {
+    display: flex;
+    justify-content:space-between;
+}
+
+/* form  */
+.form-container{
+    /* display:flex;
+    justify-content: column; */
+}
+
+.form {
+    display: flex;
+    justify-content: row;
+    margin-top: -2rem;
+}
+
+.labels {
+    /* color:#fff; */
+    display: flex;
+    /* font-family:Arial, Helvetica, sans-serif;
+    font-size: .6rem; */
+    justify-content: space-between;
+}
+
+.submit-button {
+    background-color: #5131A5;
+    color: #fff;
+    padding: .4rem;
 }
