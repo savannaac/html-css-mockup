@@ -34,7 +34,7 @@ button {
 }
 
 header {
-    border: 1px dotted #fff;
+    background-color: #000;
     display: flex;
     flex-direction: row;
     height: 5rem;
@@ -42,7 +42,9 @@ header {
 }
 
 footer {
+    background-color: #000;
     height: 7rem;
+    padding: 1rem;
 }
 
 /* label {
@@ -106,14 +108,16 @@ input {
 
 .man-ada {
     border-radius: .2rem;
-    height: 14rem;
+    height: 15rem;
     margin-right: .7rem;
 }
 
 /* content container, holding everything */
 .content-container {
+    border: 20px solid #fff;
     height: 100%;
     margin: auto;
+    padding: 1rem;
     width: 33rem;
 }
 
@@ -130,9 +134,11 @@ input {
 
 /* first portion */
 .top-container {
+    background-color: #000;
     display: flex;
     flex-direction: row;
     height: 22rem;
+    padding: 1rem;
     /* justify-content: space-between; */
 }
 
@@ -145,7 +151,7 @@ input {
     border: 3px solid #76A3D6;
     /* margin: auto; */
     margin-left: 8.5rem;
-    width: 24rem;
+    width: 23rem;
 }
 
 .all-websites-words {
@@ -161,7 +167,7 @@ input {
 }
 
 .why-take-words {
-    width: 33rem;
+    width: 30rem;
 }
 
 /* middle portions */
@@ -170,6 +176,7 @@ input {
     display: flex;
     flex-direction: row;
     height: 20rem;
+    padding: 1rem;
 }
 
 .avoid-words {
@@ -181,6 +188,7 @@ input {
     display: flex;
     flex-direction: row;
     height: 20rem;
+    padding: 1rem;
 }
 
 .we-can-words {
@@ -206,10 +214,7 @@ input {
 }
 
 .labels {
-    /* color:#fff; */
     display: flex;
-    /* font-family:Arial, Helvetica, sans-serif;
-    font-size: .6rem; */
     justify-content: space-between;
 }
 
