@@ -30,9 +30,7 @@ p {
 button {
     background-color: #5131A5;
     color: #fff;
-    padding: .3rem;
-    /* text-align: center; */
-    width: 25%
+    padding: .4rem;
 }
 
 /* font colors */
@@ -67,8 +65,18 @@ button {
     width: 9rem;
 }
 
-.image-container-1 {
+/* .image-container-1 {
     border: 1px solid blue;
+} */
+
+.ada-comp {
+    height: 12rem;
+    margin-top: 1rem;
+    width: 11rem;
+}
+
+.image-container-2 {
+
 }
 
 /* content container, holding everything */
@@ -76,7 +84,7 @@ button {
     border: 1px solid red; 
     height: 100%;
     margin: auto;
-    width: 45rem;
+    width: 33rem;
 }
 
 /* header */
@@ -93,14 +101,11 @@ button {
     border: 1px solid pink;
     height: 3rem;
     text-align: center;
-    width: 45rem;
 }
 
 .button-2 {
-    background-color: #fff;
     border: 1px solid pink;
     text-align: left;
-    width: 45rem;
 }
 
 /* first portion */
@@ -114,25 +119,27 @@ button {
 
 .words-container {
     border: 1px solid green;
+    margin-left: auto; 
+    margin-right: 0;
 }
 
 .all-websites-container {
     border: 3px solid #76A3D6;
     /* margin: auto; */
     margin-left: 8.5rem;
-    width: 25rem;
+    width: 24rem;
 }
 
 .all-websites-words {
     /* height: 5rem; */
     padding: .2rem;
-    width: 24.5rem;
+    width: 24rem;
 }
 
 .statistics-words {
     margin-bottom: 2rem;
     margin-left: 14rem;
-    width: 20rem;
+    width: 19rem;
 }
 
 .why-take-words {
@@ -149,5 +156,13 @@ button {
 }
 
 .avoid-words {
-    width: 25rem;
+    width: 22rem;
+}
+
+.middle-container-2 {
+    background-color: #fff;
+    border: 1px dotted #fff;
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
 }
